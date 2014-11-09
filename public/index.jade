@@ -1,0 +1,10 @@
+.banner
+    h1 Clayton A Davis
+
+.tile-grid
+    each tile in tiles
+        .grid-item
+            h3.title
+                = tile.title
+            .body
+                != partial(tile.template)

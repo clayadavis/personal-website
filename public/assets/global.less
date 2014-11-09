@@ -1,0 +1,117 @@
+@import "themes/flat/theme";
+
+html,
+body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: url("img/boats-banner.jpg") center fixed;
+    background-size: cover;
+}
+
+.banner{
+    background-color: rgba(255,255,255,0.5);
+    h1{
+        margin: 0;
+        padding: 20px;
+        font-size: 64pt;
+        text-align: right;
+        @media(max-width: @screen-xs-max){
+            font-size: 48pt;
+        }
+    }
+}
+
+.tile-grid{
+    text-align: center;
+}
+
+@link-color: #8DC2DF;
+@link-hover-color: #429ACA;
+
+.grid-item{
+    display: inline-block;
+    vertical-align: top;
+    
+    border: 1px solid #DDD;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    box-shadow: 0 2px 5px #888888;
+
+    width: 345px;
+    height: 345px;
+    margin: @grid-gutter-width / 2;
+
+    @media(max-width: @screen-xs-max){
+        width: 95%;
+    }
+
+    .title{
+        font-size: 28px;
+        border-bottom: 1px solid #DDD;
+        padding: 10px;
+        margin: 0;
+    }
+
+    .body{
+        padding: 10px;
+        
+        h4 {
+            margin: 0px 0px 10px;
+        }
+        
+        ul{
+            list-style: none;
+            padding: 0;
+            &.fake-dl{
+                font-weight: bold;
+                li{
+                    &:not(:first-child){
+                        margin-top: 10px;
+                    }
+                    p {
+                        font-weight: normal;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    a {
+        color: @link-color;
+        &:hover{
+            background-color: rgba(0,0,0,0.6);;
+            text-decoration: none;
+            color: @link-color;
+        }
+    }
+}
+
+.list-inline {
+    li{
+        padding: 0;
+        display: inline-block;
+        &:not(:last-child)::after{
+            padding: 0 4px;
+            content: "\2022";
+        }
+    }
+}
+
+.icon-list {
+    display: table;
+    width: 100%;
+    text-align: left;
+    li{
+        display: table-row;
+        * {
+            padding: 1px 0;
+            display: table-cell;
+            vertical-align: middle;
+        }
+    }
+}

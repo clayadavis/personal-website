@@ -1,0 +1,37 @@
+{
+  "index": {
+    "title": "Clayton A Davis: Personal Homepage",
+    "tiles": [
+      {
+        "title": "About",
+        "template": "_partials/tiles/about",
+        "iconClass": ""
+      },
+      {
+        "title": "Places",
+        "template": "_partials/tiles/places",
+        "iconClass": ""
+      },
+      {
+        "title": "Education",
+        "template": "_partials/tiles/education",
+        "iconClass": ""
+      },
+      {
+        "title": "Work",
+        "template": "_partials/tiles/work",
+        "iconClass": ""
+      },
+      {
+        "title": "Research",
+        "template": "_partials/tiles/research",
+        "iconClass": ""
+      },
+      {
+        "title": "Connect",
+        "template": "_partials/tiles/contact",
+        "iconClass": ""
+      }
+    ]
+  }
+}

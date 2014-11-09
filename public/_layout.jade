@@ -1,0 +1,10 @@
+doctype html
+html
+    head
+        != partial("_partials/head")
+        != partial("_partials/favicon")
+
+    body
+        != yield
+        
+    != partial("_partials/js")

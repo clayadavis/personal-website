@@ -1,9 +1,19 @@
 .banner
+    a.nav-button
+        span.menu-button
+            i.fa.fa-bars.fa-2x
     h1 Clayton A Davis
+
+nav.icon-list.grid-item
+    ul
+        each tile in tiles
+            li
+                a(href="#" + tile.title)
+                    = tile.title
 
 .tile-grid
     each tile in tiles
-        .grid-item
+        .grid-item(id=tile.title)
             h3.title
                 = tile.title
             .body

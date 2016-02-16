@@ -1,6 +1,8 @@
 {
   "index": {
-    "title": "Clayton A Davis: Personal Homepage",
+    "title": "Clayton A Davis: Homepage",
+    "css": ["assets/index"],
+    "js": ["assets/index"],
     "tiles": [
       {
         "title": "About",
@@ -18,19 +20,39 @@
         "iconClass": ""
       },
       {
-        "title": "Work",
-        "template": "_partials/tiles/work",
+        "title": "Research",
+        "template": "_partials/tiles/research",
         "iconClass": ""
       },
       {
-        "title": "Research",
-        "template": "_partials/tiles/research",
+        "title": "Papers",
+        "template": "_partials/tiles/papers",
+        "iconClass": ""
+      },
+      {
+        "title": "Posters",
+        "template": "_partials/tiles/posters",
+        "iconClass": ""
+      },
+      {
+        "title": "Work",
+        "template": "_partials/tiles/work",
         "iconClass": ""
       },
       {
         "title": "Connect",
         "template": "_partials/tiles/contact",
         "iconClass": ""
+      }
+    ],
+    "posters": [
+      {
+        "title": "The Rise of Social Bots in Online Social Networks",
+        "authors": ["E Ferrara", "O Varol", "P Shiralkar", "F Menczer",
+          "A Flammini"],
+        "award": "Awarded Best Poster",
+        "venue": "CCS Tempe",
+        "year": 2015
       }
     ]
   }

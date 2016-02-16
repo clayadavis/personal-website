@@ -1,0 +1,7 @@
+h4 Recent
+ul
+  each paper in public.papers._data.index.papers.slice(0, 2)
+    li
+      != partial("../paper", {paper: paper})
+h4
+  a(href="papers") More

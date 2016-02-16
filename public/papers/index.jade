@@ -1,0 +1,11 @@
+.container
+  .title
+    h2 Papers
+  .body
+    ul
+      each paper, idx in papers
+        if idx == 0 || paper.year != papers[idx-1].year
+          h4.li-sep
+            = paper.year
+        li
+          != partial("../_partials/paper", {paper: paper})

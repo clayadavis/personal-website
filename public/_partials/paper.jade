@@ -1,0 +1,48 @@
+if paper.link
+  a(href=paper.link)
+    = paper.title
+else
+  = paper.title
+| .
+| with 
+each author, idx in paper.authors
+  = author
+  if idx < (paper.authors.length - 2)
+    | , 
+  if idx == (paper.authors.length - 2)
+    |  &  
+| . 
+if paper.editors
+  | In 
+  each editor, idx in paper.editors
+    = editor
+    if idx < (paper.editors.length - 2)
+      | , 
+    if idx == (paper.editors.length - 2)
+      |  &  
+  | , editor
+  if paper.editors.length > 1
+    | s
+  | , 
+if paper.journal || paper.collection
+  i
+    = paper.journal || paper.collection
+  if paper.volume
+    | , 
+    = paper.volume
+  if paper.pp
+    | : 
+    = paper.pp
+  | . 
+if paper.venue
+  = paper.venue
+  | , 
+if paper.status
+  = paper.status
+  | , 
+= paper.year
+| .  
+if paper.award
+  b
+    = paper.award
+  | .

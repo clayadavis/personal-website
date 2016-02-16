@@ -1,10 +1,15 @@
 doctype html
 html
-    head
-        != partial("_partials/head")
-        != partial("_partials/favicon")
+  head
+    != partial("_partials/head")
+    if css && css.length
+      each stylesheet in css
+        link(rel='stylesheet', href='#{baseUrl}/#{stylesheet}.css')
+    != partial("_partials/favicon")
 
-    body
-        != yield
-        
-    != partial("_partials/js")
+  body
+    != partial("_partials/banner")
+    != yield
+    if js && js.length
+      each script in js
+        script(src='#{baseUrl}/#{script}.js')

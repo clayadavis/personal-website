@@ -1,0 +1,69 @@
+{
+  "index": {
+    "title": "Clayton A Davis: Papers",
+    "papers": [
+      {
+        "title": "BotOrNot: A System to Evaluate Social Bots",
+        "link": "//arxiv.org/abs/1602.00975",
+        "authors": ["E Ferrara", "O Varol", "F Menczer", "A Flammini"],
+        "venue": "Developers Day Workshop at WWW Montreal",
+        "year": 2016
+      },
+      {
+        "title": "The Rise of Social Bots",
+        "link": "//arxiv.org/abs/1407.5225",
+        "authors": ["E Ferrara", "O Varol", "F Menczer", "A Flammini"],
+        "journal": "Comm. ACM",
+        "status": "In press",
+        "year": 2016
+      },
+      {
+        "title": "Scalable Query and Analysis for Social Networks: An Integrated High-Level Dataflow System with Pig and Harp",
+        "link": "//www.crcpress.com/Big-Data-in-Complex-and-Social-Networks/Thai-Wu-XIONG/9781498726849",
+        "authors": ["T Wu", "B Zhang", "E Ferrara", "A Flammini", "F Menczer",
+          "J Qiu"],
+        "editors": ["M Thai", "H Xiong", "W Wu"],
+        "collection": "Big Data in Complex and Social Networks",
+        "publisher": "Chapman and Hall/CRC",
+        "status": "In press",
+        "year": 2016
+      },
+      {
+        "title": "A Role for Network Science in Social Norms Intervention",
+        "authors": ["J Heiman", "F Menczer"],
+        "link": "//dx.doi.org/10.1016/j.procs.2015.05.499",
+        "journal": "Procedia Computer Science",
+        "volume": 51,
+        "pp": "2217-2226",
+        "venue": "ICCS Reykjavik",
+        "year": 2015
+      },
+      {
+        "title": "Kinsey Reporter: Citizen Science for Sex Research",
+        "authors": ["J Heiman", "E Janssen", "S Sanders",
+          "J Garcia", "F Menczer"],
+        "venue": "Let's Talk About Sex (Apps) Workshop at CSCW Vancouver",
+        "year": 2015
+      },
+      {
+        "title": "Supporting a Social Media Observatory with Customizable Index Structures: Architecture and Performance",
+        "link": "//link.springer.com/chapter/10.1007%2F978-1-4939-1905-5_17",
+        "authors": ["E Roth", "K McKelvey", "E Ferrara", "F Menczer",
+          "J Qiu"],
+        "editors": ["X Li", "J Qiu"],
+        "collection": "Cloud Computing for Data-Intensive Applications",
+        "year": 2014
+      },
+      {
+        "title": "The Geospatial Characteristics of a Social Movement Communication Network",
+        "link": "//dx.doi.org/10.1371/journal.pone.0055957",
+        "authors": ["M Conover", "E Ferrara", "K McKelvey", "F Menczer",
+          "A Flammini"],
+        "journal": "PLoS ONE",
+        "volume": "8(3)",
+        "pp": "e55957",
+        "year": 2013
+      }
+    ]
+  }
+}

@@ -41,14 +41,13 @@ body{
 }
 
 @link-color: #8DC2DF;
-@link-hover-color: #429ACA;
 
 .component{
     display: inline-block;
     vertical-align: top;
     
     border: 1px solid #DDD;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.8);
     font-size: 12pt;
     color: white;
 
@@ -88,10 +87,8 @@ body{
 
     a {
         color: @link-color;
-        text-decoration: none;
-        &:hover{
-            color: @link-color;
-            background-color: rgba(0,0,0,0.6);;
+        &:not(:hover){
+            text-decoration: none;
         }
     }
 }

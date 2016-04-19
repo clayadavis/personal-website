@@ -48,6 +48,7 @@
     "posters": [
       {
         "title": "The Rise of Social Bots in Online Social Networks",
+        "link": "files/BotOrNot_CCS2015.pdf",
         "authors": ["E Ferrara", "O Varol", "P Shiralkar", "F Menczer",
           "A Flammini"],
         "award": "Awarded Best Poster",
@@ -64,7 +65,8 @@
         "link": "//arxiv.org/abs/1602.00975",
         "authors": ["E Ferrara", "O Varol", "F Menczer", "A Flammini"],
         "venue": "Developers Day Workshop at WWW Montreal",
-        "year": 2016
+        "year": 2016,
+        "award": "Awarded Best Presenter"
       },
       {
         "title": "The Rise of Social Bots",

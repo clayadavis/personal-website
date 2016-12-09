@@ -59,6 +59,13 @@
     "title": "Clayton A Davis: Papers",
     "papers": [
       {
+        "title": "OSoMe: The IUNI Observatory on Social Media",
+        "link": "//doi.org/10.7717/peerj-cs.87",
+        "authors": ["28 co-authors"],
+        "venue": "PeerJ Computer Science",
+        "year": 2016
+      },
+      {
         "title": "BotOrNot: A System to Evaluate Social Bots",
         "link": "//arxiv.org/abs/1602.00975",
         "authors": ["E Ferrara", "O Varol", "F Menczer", "A Flammini"],

@@ -1,8 +1,6 @@
 {
   "index": {
     "title": "Clayton A Davis: Homepage",
-    "css": ["assets/index"],
-    "js": ["assets/index"],
     "tiles": [
       {
         "title": "About",

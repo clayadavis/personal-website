@@ -1,0 +1,12 @@
+//- Automatically include page-specific js
+- var _current = public;
+- var _path = [baseUrl].concat(current.path.slice(0, current.path.length - 1)).join('/')
+- for(i=0;i<current.path.length - 1;i++){ _current = _current[current.path[i]] }
+- var scriptFile = current.source + '.js';
+if _current._contents.indexOf(scriptFile) != -1
+    script(src="#{_path}/#{scriptFile}")
+        
+//- Include js from page data
+if js && js.length
+  each script in js
+    script(src='#{baseUrl}/#{script}.js')

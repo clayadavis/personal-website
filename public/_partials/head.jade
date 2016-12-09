@@ -4,5 +4,12 @@ meta(name="viewport" content="width=device-width, initial-scale=1")
 title= title
 link(rel='stylesheet',
      href='//fonts.googleapis.com/css?family=Lato:400,700')
-link(rel='stylesheet', href='#{baseUrl}/assets/font-awesome/css/font-awesome.css')
 link(rel='stylesheet', href='#{baseUrl}/assets/global.css')
+- // Automatically include page-specific stylesheets
+- var _current = public;
+- var _path = [baseUrl].concat(current.path.slice(0, current.path.length - 1)).join('/')
+- for(i=0;i<current.path.length - 1;i++){ _current = _current[current.path[i]] }
+- var styleSheet = current.source + '.css';
+if _current._contents.indexOf(styleSheet) != -1
+    link(rel='stylesheet', href="#{_path}/#{styleSheet}")
+- // end stylesheet inclusion

@@ -1,8 +1,9 @@
 if paper.link
-  a(href=paper.link)
+  a.paper-title(href=paper.link)
     = paper.title
 else
-  = paper.title
+  span.paper-title
+    = paper.title
 |  with 
 each author, idx in paper.authors
   = author
@@ -31,15 +32,15 @@ if paper.journal || paper.collection
     = paper.volume
   if paper.pp
     | : 
-    = paper.pp
+    != paper.pp
   | . 
 if paper.venue
   = paper.venue
   | , 
 if paper.status
   = paper.status
-  | , 
-= paper.year
+else
+  = paper.year
 | .  
 if paper.award
   b

@@ -59,10 +59,24 @@
     "title": "Clayton A Davis: Papers",
     "papers": [
       {
+        "title": "The Social Media Response to Black Lives Matter: How Twitter Users Interact with Black Lives Matter through Hashtag Use",
+        "authors": ["J Ince", "F Rojas"],
+        "journal": "Ethnic and Racial Studies",
+        "status": "In press",
+        "year": "2017"
+      },
+      {
+        "title": "Online Human-Bot Interactions: Detection, Estimation, and Characterization",
+        "link": "http://arxiv.org/abs/1703.03107",
+        "authors": ["O Varol", "E Ferrara", "F Menczer", "A Flammini"],
+        "venue": "ICWSM",
+        "year": "2017"
+      },
+      {
         "title": "OSoMe: The IUNI Observatory on Social Media",
         "link": "//doi.org/10.7717/peerj-cs.87",
         "authors": ["28 co-authors"],
-        "venue": "PeerJ Computer Science",
+        "journal": "PeerJ Computer Science",
         "year": 2016
       },
       {
@@ -75,10 +89,11 @@
       },
       {
         "title": "The Rise of Social Bots",
-        "link": "//arxiv.org/abs/1407.5225",
+        "link": "http://cacm.acm.org/magazines/2016/7",
         "authors": ["E Ferrara", "O Varol", "F Menczer", "A Flammini"],
         "journal": "Comm. ACM",
-        "status": "In press",
+        "volume": "59(7)",
+        "pp": "96&ndash;104",
         "year": 2016
       },
       {
@@ -89,7 +104,6 @@
         "editors": ["M Thai", "H Xiong", "W Wu"],
         "collection": "Big Data in Complex and Social Networks",
         "publisher": "Chapman and Hall/CRC",
-        "status": "In press",
         "year": 2016
       },
       {

@@ -43,6 +43,37 @@
         "iconClass": ""
       }
     ],
+    "contacts": [
+      {
+        "link": "//twitter.com/clayadavis",
+        "icon": "twitter",
+        "desc": "Twitter: @clayadavis"
+      },
+      {
+        "link": "//github.com/clayadavis",
+        "icon": "github",
+        "desc": "GitHub: @clayadavis"
+      },
+      {
+        "link": "//www.linkedin.com/in/clayadavis",
+        "icon": "linkedin-square",
+        "desc": "LinkedIn"
+      },
+      {
+        "link": "//zotero.org/clayadavis",
+        "icon": "file-text-o",
+        "desc": "Zotero: clayadavis"
+      },
+      {
+        "link": "//www.mendeley.com/profiles/clayton-davis/",
+        "icon": "share-alt",
+        "desc": "Mendeley"
+      },
+      {
+        "icon": "at",
+        "desc": "cad at this domain"
+      }
+    ],
     "posters": [
       {
         "title": "The Rise of Social Bots in Online Social Networks",

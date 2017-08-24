@@ -1,0 +1,6 @@
+[submodule "public/_imports/sakura"]
+	path = public/_imports/sakura
+	url = git@github.com:oxalorg/sakura.git
+[submodule "public/_imports/normalize-scss"]
+	path = public/_imports/normalize-scss
+	url = git@github.com:JohnAlbin/normalize-scss.git

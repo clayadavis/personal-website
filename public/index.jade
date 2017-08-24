@@ -10,12 +10,12 @@ nav.icon-list.grid-item
     ul
         each tile in tiles
             li
-                a(href="#" + tile.title)
+                a(href="#" + tile.title.toLowerCase())
                     = tile.title
 
 main.tile-grid
     each tile in tiles
-        section.grid-item(id=tile.title)
+        section.grid-item(id=tile.title.toLowerCase())
             h2.title
                 = tile.title
             .body

@@ -6,6 +6,5 @@ html
 
   body
     include /assets/icons/icons.svg
-    .container
-        != yield
-        != partial("_partials/js")
+    != yield
+    != partial("_partials/js")

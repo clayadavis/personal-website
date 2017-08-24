@@ -1,3 +1,11 @@
+header.banner
+    h1 Clayton A Davis
+
+a.nav-button
+      span.menu-button
+            svg.icon-bars
+                use(xlink:href="#icon-bars")
+
 nav.icon-list.grid-item
     ul
         each tile in tiles
@@ -5,10 +13,12 @@ nav.icon-list.grid-item
                 a(href="#" + tile.title)
                     = tile.title
 
-.tile-grid
+main.tile-grid
     each tile in tiles
-        .grid-item(id=tile.title)
-            h3.title
+        section.grid-item(id=tile.title)
+            h2.title
                 = tile.title
             .body
                 != partial(tile.template)
+
+script(src="assets/nav.js")

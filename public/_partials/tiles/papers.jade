@@ -1,7 +1,8 @@
-h4 Recent
 ul
-  each paper in public._data.papers.papers.slice(0, 2)
+  - var papers = public._data.papers.papers
+  each paper, idx in papers
+    if idx == 0 || paper.year != papers[idx-1].year
+      h3.li-sep
+        = paper.year
     li
       != partial("../paper", {paper: paper})
-h4
-  a(href="papers.html") More

@@ -1,114 +1,112 @@
-html,
+@bg-color: #F9F9F9;
+@link-color: #2c8898;
+@link-hover-color: shade(@link-color, 50%);
+@text-color: #333;
+@base-font-size: 18px;
+@line-height: 1.618;
+
 body{
-    height: 100%;
     padding: 0;
-    margin: 0;
+    background-color: @bg-color;
+    padding-left: 1em;
+    padding-right: 1em;
+
+    max-width: 38em;
+    margin: auto;
+
+    color: @text-color;
+    font-family: Palatino, "Palatino Linotype", Times, "Times New Roman", serif;
 }
 
-body{
-    background: url("img/vancouver-banner.jpg") center fixed;
-    background-size: cover;
-    background-color: #173750;
-    font-family: 'Lato', sans-serif;
+h1,h2,h3,h4,h5,h6{
+    line-height: 1.1;
+    font-weight: 700;
+    font-family:Georgia, Times, "Times New Roman", serif;
 }
 
-.banner{
-    background-color: rgba(255,255,255,0.5);
-    h1{
-        margin: 0;
-        padding: 0.25em 0.25em 0.25em 0.75em;
-        font-size: 64pt;
-        text-align: right;
-        @media(max-width: 8in){
-            font-size: 48pt;
-        }
-        a{
-            color: #333;
-            text-decoration: none;
-            &:hover{
-                color: black;
-            }
+h1{
+    padding-right: 0.75em;
+    font-size: 4em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em; 
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+h6 {
+  font-size: 1em;
+}
+
+p{
+    line-height: @line-height;
+    font-size: @base-font-size;
+    a:hover{
+        border-bottom: 2px solid @link-hover-color;
+
+    }
+}
+
+a{
+    text-decoration: none;
+    color: @link-color;
+    &:hover{
+        color: @link-hover-color;
+    }
+}
+
+ul{
+    list-style: none;
+    line-height: @line-height;
+    padding: 0;
+
+    &.dl{
+        font-weight: bold;
+        font-size: @base-font-size;
+
+        li p{
+            font-weight: normal;
+            margin-top: 3px;
         }
     }
 }
 
-.tile-grid{
-    text-align: center;
+li{
+    margin-top: @base-font-size;
+    margin-bottom: @base-font-size;
 }
+
+
+
+
 
 .nav-button{
     display: none;
 }
 
-@link-color: #8DC2DF;
-
-.component{
-    display: inline-block;
-    vertical-align: top;
-    
-    border: 1px solid #DDD;
-    background: rgba(0,0,0,0.8);
-    font-size: 12pt;
-    color: white;
-
-    margin: 1em;
 
 
-    .title{
-        font-size: 21pt;
-        border-bottom: 1px solid #DDD;
-        padding: 9pt;
-        margin: 0;
-    }
+.tile-grid{
 
-    .body{
-        padding: 9pt;
-        
-        h4 {
-            font-size: 15pt;
-            margin: 0 0 0.25em;
-        }
-        
-        ul{
-            list-style: none;
-            padding: 0;
-            li:not(:first-child){
-                margin-top: 7.5pt;
-            }
-            &.fake-dl{
-                font-weight: bold;
-                li p {
-                    font-weight: normal;
-                    margin: 0;
-                }
-            }
-        }
-    }
-
-    a {
-        color: @link-color;
-        &:not(:hover){
-            text-decoration: none;
-        }
-    }
 }
 
-.grid-item{
-    .component;
-    width: 21.5em;
-    min-height: 21.5em;
-    
-    @media(max-width: 48em){
-        width: 95%;
-        margin: 2% 0;
-        min-height: auto;
-    }
+.grid-item:not(:first-child){
+    padding-top: 1em;
 }
 
 .icon-list {
     display: table;
-    text-align: left;
-    margin: 0 auto;
     @media(min-width: 48em){
         width: 100%;
     }
@@ -120,37 +118,19 @@ body{
             vertical-align: middle;
         }
     }
+    a:hover{
+        border-bottom: none;
+    }
 }
 
 .list-inline {
+    padding: 0;
     li{
         padding: 0;
         display: inline-block;
         &:not(:last-child)::after{
             padding: 0 3pt;
             content: "\2022";
-        }
-    }
-}
-
-.container{
-    .component;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 56em;
-
-    .title {
-        text-align: center;
-    }
-
-    .body {
-        font-size: 14pt;
-        ul{
-            li:not(:first-child),
-            .li-sep:not(:first-child){
-                margin-top: 1em;
-            }
         }
     }
 }
@@ -171,8 +151,4 @@ svg[class^="icon-"], svg[class*=" icon-"] {
     height: @icon-size;
     width: @icon-size;
     margin-right: 12px;
-}
-
-a.contact:hover svg{
-    opacity: 0.6;
 }

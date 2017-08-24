@@ -1,3 +1,7 @@
+if paper.type
+  span
+    = paper.type
+    | : 
 if paper.link
   a.paper-title(href=paper.link)
     = paper.title

@@ -8,33 +8,23 @@
         "iconClass": ""
       },
       {
-        "title": "Places",
-        "template": "_partials/tiles/places",
-        "iconClass": ""
-      },
-      {
-        "title": "Education",
-        "template": "_partials/tiles/education",
-        "iconClass": ""
-      },
-      {
         "title": "Research",
         "template": "_partials/tiles/research",
         "iconClass": ""
       },
       {
-        "title": "Papers",
+        "title": "Publications",
         "template": "_partials/tiles/papers",
-        "iconClass": ""
-      },
-      {
-        "title": "Posters",
-        "template": "_partials/tiles/posters",
         "iconClass": ""
       },
       {
         "title": "Work",
         "template": "_partials/tiles/work",
+        "iconClass": ""
+      },
+      {
+        "title": "Education",
+        "template": "_partials/tiles/education",
         "iconClass": ""
       },
       {
@@ -73,17 +63,6 @@
         "icon": "at",
         "desc": "cad at this domain"
       }
-    ],
-    "posters": [
-      {
-        "title": "The Rise of Social Bots in Online Social Networks",
-        "link": "files/BotOrNot_CCS2015.pdf",
-        "authors": ["E Ferrara", "O Varol", "P Shiralkar", "F Menczer",
-          "A Flammini"],
-        "award": "Awarded Best Poster",
-        "venue": "CCS Tempe",
-        "year": 2015
-      }
     ]
   },
   "papers": {
@@ -91,9 +70,10 @@
     "papers": [
       {
         "title": "The Social Media Response to Black Lives Matter: How Twitter Users Interact with Black Lives Matter through Hashtag Use",
+        "link": "http://dx.doi.org/10.1080/01419870.2017.1334931",
         "authors": ["J Ince", "F Rojas"],
         "journal": "Ethnic and Racial Studies",
-        "status": "In press",
+        "volume": "40(11)",
         "year": "2017"
       },
       {
@@ -136,6 +116,16 @@
         "collection": "Big Data in Complex and Social Networks",
         "publisher": "Chapman and Hall/CRC",
         "year": 2016
+      },
+      {
+        "title": "The Rise of Social Bots in Online Social Networks",
+        "type": "Poster",
+        "link": "files/BotOrNot_CCS2015.pdf",
+        "authors": ["E Ferrara", "O Varol", "P Shiralkar", "F Menczer",
+          "A Flammini"],
+        "award": "Awarded Best Poster",
+        "venue": "CCS Tempe",
+        "year": 2015
       },
       {
         "title": "A Role for Network Science in Social Norms Intervention",

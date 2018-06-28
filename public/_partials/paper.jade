@@ -14,16 +14,16 @@ each author, idx in paper.authors
 | . 
 if paper.editors
   | In 
-  each editor, idx in paper.editors
-    = editor
-    if idx < (paper.editors.length - 2)
-      | , 
-    if idx == (paper.editors.length - 2)
-      |  &  
-  | , editor
-  if paper.editors.length > 1
-    | s
-  | , 
+//-  each editor, idx in paper.editors
+//-    = editor
+//-    if idx < (paper.editors.length - 2)
+//-      | , 
+//-    if idx == (paper.editors.length - 2)
+//-      |  &  
+//-  | , editor
+//-  if paper.editors.length > 1
+//-    | s
+//-  | , 
 if paper.journal || paper.collection
   i
     = paper.journal || paper.collection

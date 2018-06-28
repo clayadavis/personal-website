@@ -18,12 +18,12 @@
         "iconClass": ""
       },
       {
-        "title": "Research",
+        "title": "Projects",
         "template": "_partials/tiles/research",
         "iconClass": ""
       },
       {
-        "title": "Papers",
+        "title": "Publications",
         "template": "_partials/tiles/papers",
         "iconClass": ""
       },
@@ -90,6 +90,15 @@
     "title": "Clayton A Davis: Papers",
     "papers": [
       {
+        "title": "Feature Engineering for Social Bot Detection",
+        "link": "https://www.crcpress.com/Feature-Engineering-for-Machine-Learning-and-Data-Analytics/Dong-Liu/p/book/9781315181080",
+        "authors": ["O Varol", "E Ferrara", "F Menczer", "A Flammini"],
+        "editors": ["G Dong", "H Liu"],
+        "collection": "Feature Engineering for Machine Learning and Data Analytics",
+        "venue": "CRC Press",
+        "year": 2018
+      },
+      {
         "title": "The Social Media Response to Black Lives Matter: How Twitter Users Interact with Black Lives Matter through Hashtag Use",
         "link": "https://doi.org/10.1080/01419870.2017.1334931",
         "authors": ["J Ince", "F Rojas"],
@@ -134,7 +143,7 @@
           "J Qiu"],
         "editors": ["M Thai", "H Xiong", "W Wu"],
         "collection": "Big Data in Complex and Social Networks",
-        "publisher": "Chapman and Hall/CRC",
+        "venue": "Chapman and Hall/CRC",
         "year": 2016
       },
       {

@@ -107,7 +107,7 @@
       },
       {
         "title": "Online Human-Bot Interactions: Detection, Estimation, and Characterization",
-        "link": "http://arxiv.org/abs/1703.03107",
+        "link": "https://aaai.org/ocs/index.php/ICWSM/ICWSM17/paper/view/15587",
         "authors": ["O Varol", "E Ferrara", "F Menczer", "A Flammini"],
         "venue": "ICWSM",
         "year": "2017"
@@ -129,7 +129,7 @@
       },
       {
         "title": "The Rise of Social Bots",
-        "link": "http://cacm.acm.org/magazines/2016/7",
+        "link": "https://cacm.acm.org/magazines/2016/7/204021-the-rise-of-social-bots/fulltext",
         "authors": ["E Ferrara", "O Varol", "F Menczer", "A Flammini"],
         "journal": "Comm. ACM",
         "volume": "59(7)",

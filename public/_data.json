@@ -13,11 +13,6 @@
         "iconClass": ""
       },
       {
-        "title": "Education",
-        "template": "_partials/tiles/education",
-        "iconClass": ""
-      },
-      {
         "title": "Projects",
         "template": "_partials/tiles/research",
         "iconClass": ""
@@ -28,13 +23,13 @@
         "iconClass": ""
       },
       {
-        "title": "Posters",
-        "template": "_partials/tiles/posters",
+        "title": "Work",
+        "template": "_partials/tiles/work",
         "iconClass": ""
       },
       {
-        "title": "Work",
-        "template": "_partials/tiles/work",
+        "title": "Education",
+        "template": "_partials/tiles/education",
         "iconClass": ""
       },
       {
@@ -73,22 +68,18 @@
         "icon": "at",
         "desc": "cad at this domain"
       }
-    ],
-    "posters": [
-      {
-        "title": "The Rise of Social Bots in Online Social Networks",
-        "link": "files/BotOrNot_CCS2015.pdf",
-        "authors": ["E Ferrara", "O Varol", "P Shiralkar", "F Menczer",
-          "A Flammini"],
-        "award": "Awarded Best Poster",
-        "venue": "CCS Tempe",
-        "year": 2015
-      }
     ]
   },
   "papers": {
     "title": "Clayton A Davis: Papers",
     "papers": [
+      {
+        "title": "A First Course in Network Science",
+        "link": "https://github.com/CambridgeUniversityPress/FirstCourseNetworkScience",
+        "authors": ["F Menczer", "S Fortunato"],
+        "venue": "Cambridge University Press",
+        "year": 2020
+      },
       {
         "title": "Feature Engineering for Social Bot Detection",
         "link": "https://www.crcpress.com/Feature-Engineering-for-Machine-Learning-and-Data-Analytics/Dong-Liu/p/book/9781315181080",
@@ -145,6 +136,16 @@
         "collection": "Big Data in Complex and Social Networks",
         "venue": "Chapman and Hall/CRC",
         "year": 2016
+      },
+      {
+        "type": "poster",
+        "title": "The Rise of Social Bots in Online Social Networks",
+        "link": "files/BotOrNot_CCS2015.pdf",
+        "authors": ["E Ferrara", "O Varol", "P Shiralkar", "F Menczer",
+          "A Flammini"],
+        "award": "Awarded Best Poster",
+        "venue": "CCS Tempe",
+        "year": 2015
       },
       {
         "title": "A Role for Network Science in Social Norms Intervention",
